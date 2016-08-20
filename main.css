@@ -1,0 +1,122 @@
+html {
+}
+
+body {
+   background: #0000ff;
+   font-family: "brandon grotesque", "avenir next", "avenir", "Helvetica Neue", Helvetica, Arial, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+	letter-spacing: -0.02em;
+	color: #00fe00;
+   line-height: 1.5;
+   margin: 40px 60px;
+	word-break: keep-all;
+}
+
+a{
+	color: #00fe00;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+h1{
+	color: #00fe00;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+	line-height: 1.6;
+	float: left;
+}
+
+content article ul{
+	margin: 20px 0px 20px 0px;
+	padding-left: 20px;
+	list-style-type: disc;
+	line-height: 1.8;
+}
+
+content{
+	float: left;
+	position: absolute;
+	width: auto;
+	margin: -9px 0px 0px 60px;
+}
+
+article{
+	width: 600px;
+	line-height: 1.8;
+	margin-top: -1px;
+}
+
+.box{
+	background: black;
+	z-index: -10;
+	height: 40px;
+	width: 80%;
+	height: 40px;
+	overflow: auto;
+	margin: auto;
+	padding: 12px 20px 0 20px;
+	position: fixed;
+	top: 0; left: 0; bottom: 0; right: 0;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	transform: rotate(-45deg);
+}
+
+.box a{
+	color: white;
+	text-decoration: none;
+}
+
+.box a:hover{
+	color: #00fe00 !important;
+}
+
+@media screen and (max-width: 860px) {
+	article{
+		width: auto;
+		margin-right: 60px;			
+	}
+}
+
+@media screen and (max-width: 720px) {
+	ul{
+		float: none;
+	}
+	
+	content{
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	
+	article{
+		width: auto;
+		margin-right: 60px;			
+	}
+	
+	.box{
+		background-color: #ff0000;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	body{
+		margin: 40px 30px;
+	}
+	
+	article{
+		margin-right: 30px;			
+	}
+	
+	.box{
+		background-color: #0000ff;
+		border: 1px solid #ffffff;
+	}
+}
