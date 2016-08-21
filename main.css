@@ -99,6 +99,10 @@ article{
 		margin: 0;
 	}
 	
+	.mb{
+		margin-bottom: 20px;
+	}
+	
 	content{
 		width: auto;
 		margin: 0;
