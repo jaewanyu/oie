@@ -87,6 +87,12 @@ article{
 @media screen and (max-width: 720px) {
 	ul{
 		float: none;
+		margin-bottom: 60px;
+	}
+	
+	li{
+		margin-right: 30px;
+		float: left;
 	}
 	
 	content{
