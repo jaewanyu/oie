@@ -95,6 +95,10 @@ article{
 		float: left;
 	}
 	
+	article li{
+		margin: 0;
+	}
+	
 	content{
 		width: auto;
 		margin: 0;
